@@ -1,0 +1,129 @@
+@media print /*--This is for Print--*/ {
+  .btn {
+    display: none;
+  }
+  #doc {
+    min-width: 32rem;
+    max-width: 32rem;
+    margin: auto;
+  }
+  .Border {
+    padding: 1em;
+    border: solid black thick;
+  }
+  .heading {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  img {
+    max-height: 70px;
+  }
+  .heading * {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .dash {
+    border-top: 0.1rem solid black;
+  }
+  .title {
+    text-align: center;
+  }
+  #RegNo {
+    font-family: fantasy;
+  }
+  .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .Signatures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .clerk {
+    display: flex;
+    align-items: end;
+  }
+  .Signatures > div {
+    text-align: center;
+  }
+}
+@page {
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+.book-date {
+  page-break-after: always;
+}
+
+.post-content {
+  page-break-before: always;
+}
+p {
+  page-break-inside: avoid;
+}
+@media screen /*--This is for Print Preview Screen--*/ {
+  .btn {
+    display: none;
+  }
+  #doc {
+    min-width: 32rem;
+    max-width: 32rem;
+    margin: auto;
+  }
+  .Border {
+    padding: 1em;
+    border: solid black thick;
+  }
+  .heading {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  img {
+    max-height: 70px;
+  }
+  .heading * {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .heading > h1 {
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-size: x-large;
+  }
+  .dash {
+    border-top: 0.1rem solid black;
+  }
+  .title {
+    text-align: center;
+  }
+  #RegNo {
+    font-family: fantasy;
+  }
+  .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .Signatures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .clerk {
+    display: flex;
+    align-items: end;
+  }
+  .Signatures > div {
+    text-align: center;
+  }
+}

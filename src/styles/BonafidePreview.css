@@ -1,0 +1,26 @@
+@media screen /*--This is for Screen--*/ {
+  body {
+    background: #92bde7;
+    color: #485e74;
+    line-height: 1.6;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em;
+  }
+  #doc {
+    min-width: 32rem;
+    max-width: 32rem;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    padding: 1em;
+    background-color: #fff;
+    color: black;
+  }
+  .Signatures {
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .btn {
+    background-color: #ccbcbc;
+    display: block;
+  }
+}
